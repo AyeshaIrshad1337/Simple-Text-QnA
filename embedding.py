@@ -14,3 +14,5 @@ embedding = model.encode(text).tolist()
 
 # Return the embedding as a JSON string
 print(json.dumps(embedding))
+print(f"Embedding generated for text: {text}")
+print(f"Embedding: {embedding}")
